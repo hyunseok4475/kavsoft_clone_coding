@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668C3A1A286ED786005FADA4 /* kav_SearchBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C3A19286ED786005FADA4 /* kav_SearchBarApp.swift */; };
+		668C3A1C286ED786005FADA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C3A1B286ED786005FADA4 /* ContentView.swift */; };
+		668C3A1E286ED787005FADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668C3A1D286ED787005FADA4 /* Assets.xcassets */; };
+		668C3A21286ED787005FADA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668C3A20286ED787005FADA4 /* Preview Assets.xcassets */; };
+		668C3A2B286ED787005FADA4 /* kav_SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C3A2A286ED787005FADA4 /* kav_SearchBarTests.swift */; };
+		668C3A35286ED787005FADA4 /* kav_SearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C3A34286ED787005FADA4 /* kav_SearchBarUITests.swift */; };
+		668C3A37286ED787005FADA4 /* kav_SearchBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C3A36286ED787005FADA4 /* kav_SearchBarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		668C3A27286ED787005FADA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668C3A0E286ED786005FADA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668C3A15286ED786005FADA4;
+			remoteInfo = "kav-SearchBar";
+		};
+		668C3A31286ED787005FADA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668C3A0E286ED786005FADA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668C3A15286ED786005FADA4;
+			remoteInfo = "kav-SearchBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		668C3A16286ED786005FADA4 /* kav-SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kav-SearchBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668C3A19286ED786005FADA4 /* kav_SearchBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kav_SearchBarApp.swift; sourceTree = "<group>"; };
+		668C3A1B286ED786005FADA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		668C3A1D286ED787005FADA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668C3A20286ED787005FADA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		668C3A26286ED787005FADA4 /* kav-SearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kav-SearchBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668C3A2A286ED787005FADA4 /* kav_SearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kav_SearchBarTests.swift; sourceTree = "<group>"; };
+		668C3A30286ED787005FADA4 /* kav-SearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kav-SearchBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668C3A34286ED787005FADA4 /* kav_SearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kav_SearchBarUITests.swift; sourceTree = "<group>"; };
+		668C3A36286ED787005FADA4 /* kav_SearchBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kav_SearchBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668C3A13286ED786005FADA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C3A23286ED787005FADA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C3A2D286ED787005FADA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668C3A0D286ED786005FADA4 = {
+			isa = PBXGroup;
+			children = (
+				668C3A18286ED786005FADA4 /* kav-SearchBar */,
+				668C3A29286ED787005FADA4 /* kav-SearchBarTests */,
+				668C3A33286ED787005FADA4 /* kav-SearchBarUITests */,
+				668C3A17286ED786005FADA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		668C3A17286ED786005FADA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668C3A16286ED786005FADA4 /* kav-SearchBar.app */,
+				668C3A26286ED787005FADA4 /* kav-SearchBarTests.xctest */,
+				668C3A30286ED787005FADA4 /* kav-SearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668C3A18286ED786005FADA4 /* kav-SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				668C3A19286ED786005FADA4 /* kav_SearchBarApp.swift */,
+				668C3A1B286ED786005FADA4 /* ContentView.swift */,
+				668C3A1D286ED787005FADA4 /* Assets.xcassets */,
+				668C3A1F286ED787005FADA4 /* Preview Content */,
+			);
+			path = "kav-SearchBar";
+			sourceTree = "<group>";
+		};
+		668C3A1F286ED787005FADA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				668C3A20286ED787005FADA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		668C3A29286ED787005FADA4 /* kav-SearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				668C3A2A286ED787005FADA4 /* kav_SearchBarTests.swift */,
+			);
+			path = "kav-SearchBarTests";
+			sourceTree = "<group>";
+		};
+		668C3A33286ED787005FADA4 /* kav-SearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				668C3A34286ED787005FADA4 /* kav_SearchBarUITests.swift */,
+				668C3A36286ED787005FADA4 /* kav_SearchBarUITestsLaunchTests.swift */,
+			);
+			path = "kav-SearchBarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668C3A15286ED786005FADA4 /* kav-SearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668C3A3A286ED787005FADA4 /* Build configuration list for PBXNativeTarget "kav-SearchBar" */;
+			buildPhases = (
+				668C3A12286ED786005FADA4 /* Sources */,
+				668C3A13286ED786005FADA4 /* Frameworks */,
+				668C3A14286ED786005FADA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kav-SearchBar";
+			productName = "kav-SearchBar";
+			productReference = 668C3A16286ED786005FADA4 /* kav-SearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		668C3A25286ED787005FADA4 /* kav-SearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668C3A3D286ED787005FADA4 /* Build configuration list for PBXNativeTarget "kav-SearchBarTests" */;
+			buildPhases = (
+				668C3A22286ED787005FADA4 /* Sources */,
+				668C3A23286ED787005FADA4 /* Frameworks */,
+				668C3A24286ED787005FADA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668C3A28286ED787005FADA4 /* PBXTargetDependency */,
+			);
+			name = "kav-SearchBarTests";
+			productName = "kav-SearchBarTests";
+			productReference = 668C3A26286ED787005FADA4 /* kav-SearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		668C3A2F286ED787005FADA4 /* kav-SearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668C3A40286ED787005FADA4 /* Build configuration list for PBXNativeTarget "kav-SearchBarUITests" */;
+			buildPhases = (
+				668C3A2C286ED787005FADA4 /* Sources */,
+				668C3A2D286ED787005FADA4 /* Frameworks */,
+				668C3A2E286ED787005FADA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668C3A32286ED787005FADA4 /* PBXTargetDependency */,
+			);
+			name = "kav-SearchBarUITests";
+			productName = "kav-SearchBarUITests";
+			productReference = 668C3A30286ED787005FADA4 /* kav-SearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668C3A0E286ED786005FADA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					668C3A15286ED786005FADA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					668C3A25286ED787005FADA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 668C3A15286ED786005FADA4;
+					};
+					668C3A2F286ED787005FADA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 668C3A15286ED786005FADA4;
+					};
+				};
+			};
+			buildConfigurationList = 668C3A11286ED786005FADA4 /* Build configuration list for PBXProject "kav-SearchBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 668C3A0D286ED786005FADA4;
+			productRefGroup = 668C3A17286ED786005FADA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668C3A15286ED786005FADA4 /* kav-SearchBar */,
+				668C3A25286ED787005FADA4 /* kav-SearchBarTests */,
+				668C3A2F286ED787005FADA4 /* kav-SearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668C3A14286ED786005FADA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C3A21286ED787005FADA4 /* Preview Assets.xcassets in Resources */,
+				668C3A1E286ED787005FADA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C3A24286ED787005FADA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C3A2E286ED787005FADA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668C3A12286ED786005FADA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C3A1C286ED786005FADA4 /* ContentView.swift in Sources */,
+				668C3A1A286ED786005FADA4 /* kav_SearchBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C3A22286ED787005FADA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C3A2B286ED787005FADA4 /* kav_SearchBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C3A2C286ED787005FADA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C3A35286ED787005FADA4 /* kav_SearchBarUITests.swift in Sources */,
+				668C3A37286ED787005FADA4 /* kav_SearchBarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668C3A28286ED787005FADA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668C3A15286ED786005FADA4 /* kav-SearchBar */;
+			targetProxy = 668C3A27286ED787005FADA4 /* PBXContainerItemProxy */;
+		};
+		668C3A32286ED787005FADA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668C3A15286ED786005FADA4 /* kav-SearchBar */;
+			targetProxy = 668C3A31286ED787005FADA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		668C3A38286ED787005FADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		668C3A39286ED787005FADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668C3A3B286ED787005FADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kav-SearchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 8944MW868U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stacker.kav-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		668C3A3C286ED787005FADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kav-SearchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 8944MW868U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stacker.kav-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		668C3A3E286ED787005FADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8944MW868U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stacker.kav-SearchBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kav-SearchBar.app/kav-SearchBar";
+			};
+			name = Debug;
+		};
+		668C3A3F286ED787005FADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8944MW868U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stacker.kav-SearchBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kav-SearchBar.app/kav-SearchBar";
+			};
+			name = Release;
+		};
+		668C3A41286ED787005FADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8944MW868U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stacker.kav-SearchBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kav-SearchBar";
+			};
+			name = Debug;
+		};
+		668C3A42286ED787005FADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8944MW868U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stacker.kav-SearchBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kav-SearchBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668C3A11286ED786005FADA4 /* Build configuration list for PBXProject "kav-SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C3A38286ED787005FADA4 /* Debug */,
+				668C3A39286ED787005FADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668C3A3A286ED787005FADA4 /* Build configuration list for PBXNativeTarget "kav-SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C3A3B286ED787005FADA4 /* Debug */,
+				668C3A3C286ED787005FADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668C3A3D286ED787005FADA4 /* Build configuration list for PBXNativeTarget "kav-SearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C3A3E286ED787005FADA4 /* Debug */,
+				668C3A3F286ED787005FADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668C3A40286ED787005FADA4 /* Build configuration list for PBXNativeTarget "kav-SearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C3A41286ED787005FADA4 /* Debug */,
+				668C3A42286ED787005FADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668C3A0E286ED786005FADA4 /* Project object */;
+}
